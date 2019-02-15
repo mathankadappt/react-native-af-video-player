@@ -41,7 +41,6 @@ const TopBar = (props) => {
   return (
     <View style={styles.container}>
       <View style={styles.row}>
-        { logo && <Image style={styles.logo} resizeMode="contain" {...checkSource(logo)} />}
         <Text
           style={[styles.title, { color: theme.title }]}
           numberOfLines={1}
