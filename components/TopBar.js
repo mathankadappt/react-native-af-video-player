@@ -1,14 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-
-import {
-  View,
-  StyleSheet,
-  Text,
-  Image
-} from 'react-native'
-
-import LinearGradient from 'react-native-linear-gradient'
+import { View,  StyleSheet,  Text,  Image} from 'react-native'
 import { ToggleIcon } from './'
 import { checkSource } from './utils'
 
@@ -47,7 +39,7 @@ const TopBar = (props) => {
     onMorePress
   } = props
   return (
-    <LinearGradient colors={['rgba(0,0,0,0.75)', 'rgba(0,0,0,0)']} style={styles.container}>
+    <View style={styles.container}>
       <View style={styles.row}>
         { logo && <Image style={styles.logo} resizeMode="contain" {...checkSource(logo)} />}
         <Text
@@ -69,7 +61,7 @@ const TopBar = (props) => {
           />
         }
       </View>
-    </LinearGradient>
+    </View>
   )
 }
 
