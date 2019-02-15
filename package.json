@@ -1,7 +1,14 @@
 {
+  "_args": [
+    [
+      "git+https://github.com/mathankadappt/react-native-af-video-player.git",
+      "/home/syed/Documents/Live Projects/road-safety/rsapp"
+    ]
+  ],
   "_from": "git+https://github.com/mathankadappt/react-native-af-video-player.git",
-  "_id": "react-native-af-video-player@0.2.1",
+  "_id": "react-native-af-video-player@git+https://github.com/mathankadappt/react-native-af-video-player.git#23175dd2f98b1358db589ae8451aa82d65bd01f5",
   "_inBundle": false,
+  "_integrity": "",
   "_location": "/react-native-af-video-player",
   "_phantomChildren": {
     "camelcase": "4.1.0",
@@ -22,9 +29,7 @@
   },
   "_requested": {
     "type": "git",
-    "raw": "react-native-af-video-player@git+https://github.com/mathankadappt/react-native-af-video-player.git",
-    "name": "react-native-af-video-player",
-    "escapedName": "react-native-af-video-player",
+    "raw": "git+https://github.com/mathankadappt/react-native-af-video-player.git",
     "rawSpec": "git+https://github.com/mathankadappt/react-native-af-video-player.git",
     "saveSpec": "git+https://github.com/mathankadappt/react-native-af-video-player.git",
     "fetchSpec": "https://github.com/mathankadappt/react-native-af-video-player.git",
@@ -33,9 +38,9 @@
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "git+https://github.com/mathankadappt/react-native-af-video-player.git#0e1597d498b5d1b301636e5b43f3da9985a5c2aa",
-  "_spec": "react-native-af-video-player@git+https://github.com/mathankadappt/react-native-af-video-player.git",
-  "_where": "/Users/mathan/projects/app/grs/rsapp",
+  "_resolved": "git+https://github.com/mathankadappt/react-native-af-video-player.git#23175dd2f98b1358db589ae8451aa82d65bd01f5",
+  "_spec": "git+https://github.com/mathankadappt/react-native-af-video-player.git",
+  "_where": "/home/syed/Documents/Live Projects/road-safety/rsapp",
   "author": {
     "name": "Abbas Farid",
     "email": "abbasfreestyle@gmail.com",
@@ -44,7 +49,6 @@
   "bundleDependencies": false,
   "dependencies": {
     "react-native-keep-awake": "^2.0.6",
-    "react-native-orientation": "^3.1.0",
     "react-native-slider": "git+https://github.com/abbasfreestyle/react-native-slider.git",
     "react-native-vector-icons": "^4.4.2",
     "react-native-video": "^2.0.0"
