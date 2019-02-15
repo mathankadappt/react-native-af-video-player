@@ -32,7 +32,6 @@ const styles = StyleSheet.create({
 
 const TopBar = (props) => {
   const {
-    logo,
     more,
     title,
     theme,
@@ -66,7 +65,6 @@ const TopBar = (props) => {
 
 TopBar.propTypes = {
   title: PropTypes.string.isRequired,
-  logo: PropTypes.string.isRequired,
   more: PropTypes.bool.isRequired,
   onMorePress: PropTypes.func.isRequired,
   theme: PropTypes.object.isRequired
