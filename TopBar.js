@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { View,  StyleSheet,  Text,  Image} from 'react-native'
 import { ToggleIcon } from './'
+import { checkSource } from './utils'
 
 const backgroundColor = 'transparent'
 
